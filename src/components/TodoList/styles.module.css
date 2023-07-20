@@ -1,0 +1,119 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#008080 !important;
+    width: 500px;
+    margin: 50px auto;
+    border-radius:8px;
+    padding:50px;
+  }
+  
+  .App h1 {
+    text-align: center;
+    color: #fff;
+  }
+  .start_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    margin: 50px;
+    border-radius:8px;
+    padding:16px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  
+  .form input[type="text"]{
+    padding: 10px;
+    width: 75%;
+    border: 1px solid #eee;
+    border-radius: 6px;
+  }
+  
+  .form button[type="submit"]{
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    width: 19%;
+  }
+  
+  .form input[type="text"]:focus,
+  .form button[type="submit"]:focus {
+    outline: none;
+  }
+  
+  .todo_listItems {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .todo_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item_content {
+    width:60%;
+  }
+  
+  .todo_item button {
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .todo_item button:focus {
+    outline: none;
+  }
+  .update_item {
+    background-color: goldenrod;
+    color: #fff;
+  }
+  
+  .delete_item {
+    background-color: red;
+    color:#fff
+  }
+  
+  .update_form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .update_new_input{
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    padding: 8px;
+    outline: none;
+  }
+  
+  .update_new_button{
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .cancel_new_button{
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+  }
+  
